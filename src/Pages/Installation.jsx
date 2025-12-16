@@ -66,6 +66,7 @@ const Installation = () => {
                 <Download />
               <p className="text-base-content/70">{a.downloads}</p>
               </div>
+              <p>{a.size} mb</p>
             </div>
             <div className="pr-4 flex items-center gap-3">
               <div className="font-semibold">⭐️{a.ratingAvg}</div>
@@ -73,7 +74,7 @@ const Installation = () => {
                 onClick={() => handleRemove(a.id)}
                 className="btn btn-outline"
               >
-                Remove
+                Uninstall
               </button>
             </div>
           </div>
