@@ -17,7 +17,7 @@ const Hero = () => {
           <button className="btn">Google Play</button>
           <button className="btn">App Store</button>
         </div>
-        <img src="hero.png" className="ml-0 mt-5 md:ml-45" alt="" />
+        <img src="hero.png" className="ml-0 mt-5 md:ml-35" alt="" />
       </div>
     </div>
   );

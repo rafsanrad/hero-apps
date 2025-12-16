@@ -15,13 +15,13 @@ const Apps = () => {
   console.log(searchedApps);
   return (
     <div>
+        <h1 className="text-center font-semibold text-4xl">Our All Applications</h1>
       <div className="flex justify-between items-center py-5">
-        <h1 className="font-semibold text-2xl">
-          All Apps{" "}
-          <span className="text-sm text-gray-500">
+        
+        <span >
             ({searchedApps.length}) Apps Found
-          </span>
-        </h1>
+        </span>
+    
         <label className="input">
           <input
             value={search}

@@ -15,7 +15,7 @@ const Home = () => {
         <Hero></Hero>
         <Banner></Banner>
       <div className="flex justify-between items-center py-5">
-        <h1 className="font-semibold text-2xl">Trending Apps</h1>
+        <h1 className="font-semibold text-2xl ">Trending Apps</h1>
         <Link className="btn btn-outline" to="/apps">
           Show All
         </Link>
